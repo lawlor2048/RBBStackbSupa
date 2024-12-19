@@ -1,0 +1,12 @@
+setup:
+  project: regional-broadband
+  config: dev
+
+variables:
+  VIMAR_API_KEY:
+    description: "API key for VIMAR service"
+  HUBSPOT_API_KEY:
+    description: "API key for HubSpot integration"
+  VIMAR_API_URL:
+    description: "VIMAR API base URL"
+    default: "https://wh.regionalbroadband.ie/vimar"

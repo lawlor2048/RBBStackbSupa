@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased;
+  }
+}
+
+/* Custom radio and checkbox styles */
+input[type="radio"], input[type="checkbox"] {
+  @apply accent-[#2f3676];
+}
